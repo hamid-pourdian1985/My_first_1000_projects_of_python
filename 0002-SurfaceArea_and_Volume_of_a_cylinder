@@ -1,0 +1,8 @@
+pi=22/7
+height=float(input("height of cylinder: "))
+radius=float(input("radius of  celender: "))
+volume= pi*radius*height
+surArea=((2*pi*radius)*height)+(2*(pi*radius**2))
+print("Volume is: ", volume)
+print("surface Area is : ", surArea)
+      
